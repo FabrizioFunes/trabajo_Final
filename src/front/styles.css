@@ -1,0 +1,207 @@
+    :root {
+        --color1: #f7d3a6;
+        --color2: #f4a462;
+        --color3: #2a9d90;
+        --color4: #274754;
+        --color5: #e76e50;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        
+        header {
+            background-color: var(--color4);
+            color: white;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            color: var(--color1);
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        
+        .logo a {
+            margin: 0;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: var(--color1);
+            text-decoration: none;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 1.5rem;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        nav ul li a:hover {
+            color: var(--color1);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        
+        
+        .sidebar {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .main-content {
+            background-color: white;
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .crypto-card {
+            background-color: var(--color3);
+            color: white;
+            padding: 1rem;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .crypto-card.bitcoin {
+            background-color: #f7931a;
+        }
+        
+        .crypto-card.ethereum {
+            background-color: #627eea;
+        }
+        
+        .crypto-card.usdc {
+            background-color: #2775ca;
+        }
+        
+        .crypto-card.binance {
+            background-color: #f3ba2f;
+        }
+        
+        .crypto-card.solana {
+            background-color: #00ffbd;
+        }
+        
+        .transaction-form {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1rem;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        input, select {
+            width: 100%;
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        button {
+            background-color: var(--color2);
+            color: white;
+            border: none;
+            padding: 0.7rem 1.5rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: var(--color5);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            padding: 0.8rem;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: var(--color4);
+            color: white;
+        }
+        
+        tr:hover {
+            background-color: #f5f5f5;
+        }
+        
+        .action-btn {
+            padding: 0.3rem 0.6rem;
+            margin-right: 0.3rem;
+            font-size: 0.8rem;
+        }
+        
+        .view-btn {
+            background-color: var(--color3);
+        }
+        
+        .edit-btn {
+            background-color: var(--color2);
+        }
+        
+        .delete-btn {
+            background-color: var(--color5);
+        }
+        
+        .portfolio-summary {
+            background-color: var(--color1);
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+        }
+        
+        .portfolio-summary h2 {
+            margin-top: 0;
+            color: var(--color4);
+        }
+        
+        footer {
+            background-color: var(--color4);
+            color: white;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+
